@@ -60,8 +60,10 @@ footer {
 
 footer a {
     padding: 0.5em;
-    color: black
+    color: black;
+    text-decoration: none;
 }
+
 
 /* Large devices (desktops, 992px and up) */
 @media screen and (min-width: 992px) {
