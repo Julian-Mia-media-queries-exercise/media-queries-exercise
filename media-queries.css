@@ -1,0 +1,56 @@
+body {
+    font-family: sans-serif;
+}
+
+.alert-info {
+    padding: 1em;
+    width: 100%;
+    background-color: lightblue;
+    text-align: center;
+    border: 1px solid lightgray;
+}
+
+.alert-info a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+ul * {
+    list-style-type: none;
+    /*margin: 0;*/
+}
+
+li {
+    background-color: lightgray;
+    padding: 1em;
+    margin: .5em 0;
+    /*width: 100%;*/
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.header-img {
+    display: flex;
+}
+
+img {
+    width: 100%;
+}
+
+/* Large devices (desktops, 992px and up) */
+@media screen and (min-width:992px) {
+    body {
+        background-color: blue;
+    }
+}
