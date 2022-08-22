@@ -2,8 +2,10 @@ body {
     font-family: sans-serif;
 }
 
+/*Alert Info*/
+
 .alert-info {
-    padding: 1em;
+    padding: 1em 0;
     width: 100%;
     background-color: lightblue;
     text-align: center;
@@ -15,9 +17,13 @@ body {
     color: black;
 }
 
+/*Header*/
+
 h1 {
     text-align: center;
 }
+
+/*Navigation*/
 
 nav {
     text-align: center;
@@ -38,6 +44,8 @@ ul {
     padding: 0;
 }
 
+/*Header Image*/
+
 .header-img {
     display: flex;
 }
@@ -45,6 +53,8 @@ ul {
 img {
     width: 100%;
 }
+
+/*Sections*/
 
 .sub-section {
     font-style: italic;
@@ -58,6 +68,8 @@ footer {
     align-items: center;
 }
 
+/*Footer*/
+
 footer a {
     padding: 0.5em;
     color: black;
@@ -67,9 +79,14 @@ footer a {
 
 /* Large devices (desktops, 992px and up) */
 @media screen and (min-width: 992px) {
+
+    /*Hide Alert Info*/
+
     .alert-info {
         display: none;
     }
+
+    /*Header + Navigation*/
 
     h1 {
         float: left;
@@ -84,9 +101,13 @@ footer a {
         justify-content: flex-end;
     }
 
+    /*Header Image*/
+
     .header-img {
         clear: left;
     }
+
+    /*Sections Rearrange*/
 
     .main {
         width: 60%;
@@ -105,6 +126,8 @@ footer a {
     h2 {
         padding: 1em 0;
     }
+
+    /*Footer*/
 
     footer {
         padding-top: 30em;
